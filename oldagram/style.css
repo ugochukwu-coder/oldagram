@@ -1,0 +1,109 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 63.5%;
+}
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #f5f5f5;
+
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 37.5rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image__logo {
+ width: 12.7rem;
+}
+
+.header__img {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.name,
+.location {
+    font-size: 1.4rem;
+}
+.name {
+    font-weight: bold;
+   
+    margin-bottom: 0;
+}
+.location {
+    margin-top: 0;
+}
+
+.profile {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-top: 2px solid #C6C6C6;
+
+}
+
+.section__one--img {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.main__img {
+    width: 37.5rem;
+    height:37.5rem ;
+}
+
+.icons {
+
+    display: inline-block;
+    padding-top: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.heart-icon,
+.comment-icon,
+.dm-icon {
+    
+    width: 2.5rem;
+    height:2.5rem;
+    fill: #000;
+}
+
+.like,
+.username {
+    font-size: 1.6rem;
+    line-height: 1;
+    padding-left: 1rem;
+
+   
+}
+
+.username span,
+.like {
+    font-weight: bold;
+}
+
+
